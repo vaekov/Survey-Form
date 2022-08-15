@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">MGSU Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve our university</p>
+        <form id="survey-form">
+          <div id="form">
+          <label id="name-label">Name</label><br>
+          <input id="name" type="text" name="name" placeholder="Enter your name"  required><br>
+          <label id="email-label">Email</label><br>
+          <input id="email" type="email" name="email" placeholder="Enter your email" required><br>
+          <label id="number-label">Age</label><br>
+          <input id="number" type="number" name="age" placeholder="Enter your age" min="10" max="100"><br>
+          <label for="dropdown">Which option best describes your current role?</label><br>
+          <select name="position" required="required" id="dropdown">
+            <option value="">Select option</option>
+            <option>Enrollee</option>
+            <option>Student</option>
+            <option>Teacher</option>
+          </select><br>
+          <p>Would you recommend MGSU to a friend</p>
+          <label for="definitely">
+            <input id="definitely" type="radio"          name="user-recommend"
+             value="definitely">Definitely
+          </label><br>
+          <label for="definitely">
+            <input id="definitely" type="radio"          name="user-recommend"
+             value="Maybe">Maybe
+          </label><br>
+          <label for="definitely">
+            <input id="definitely" type="radio"          name="user-recommend"
+             value="not">Not
+          </label><br>
+          <p>Which direction do you like</p>
+          <label for="architecture">
+            <input id="direction" type="checkbox" name="direction"  value="architecture">Architecture
+          </label><br>
+          <label for="urban-planning">
+            <input id="direction" type="checkbox" name="direction" value="urban-planning">Urban-planning
+          </label><br>
+          <label for="economics">
+            <input id="direction" type="checkbox" name="direction" value="economics">Economics
+          </label><br>
+          <label for="construction">
+            <input id="direction" type="checkbox" name="direction" value="construction">Construction
+          </label><br>
+          <label id="posth" for="post">Any comments or suggestions?</label><br>
+          <textarea id="post" name="user_message"></textarea>
+          <div id="sub">
+            <button type="submit" id="submit">Submit</button>
+          </div>
+          </div>
+        </form>
+      </main>
+</body>
+</html>

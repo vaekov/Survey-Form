@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+body {
+  background-image: url(https://images.pexels.com/photos/4161604/pexels-photo-4161604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 1.3em;
+  font-family: "Lato", sans-serif;
+}
+
+#survey-form {
+  width:700px;
+  height: auto;
+  position: relative;
+  margin: auto;
+  background:#0065BC;
+  border-radius: 8px;
+  opacity: 1;
+  
+}
+#form {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  padding-bottom: 20px;
+}
+#title {
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+#name {
+  width: 650px;
+  height: 30px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 0px;
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#email {
+  width: 650px;
+  height: 30px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 0px;
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#number {
+  width: 650px;
+  height: 30px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 0px;
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#dropdown {
+  width: 657px;
+  height: 38px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+}
+#definitely {
+  height:25px; 
+  width:25px;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+#direction {
+  height:25px; 
+  width:25px;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+#post {
+  width: 650px;
+  height: 100px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 0px;
+  margin-top: 15px;
+}
+#submit {
+  width: 657px;
+  height: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 0px;
+  background-color: #727700;
+  margin-top: 15px;
+}
